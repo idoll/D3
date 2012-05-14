@@ -1,0 +1,36 @@
+<h1>Item</h1>
+
+<p>
+  <strong>Name:</strong>
+  <%= @item.name %>
+</p>
+<p>
+  <strong>Required Level:</strong>
+  <%= @item.minlevel %>
+</p>
+<p>
+  <strong>Item Description:</strong>
+  <%= @item.description %>
+</p>
+<p>
+  <strong>Required Class:</strong>
+  <%= @item.player_class %>
+</p>
+<p>
+  <strong>Slot:</strong>
+  <%= @item.slot %>
+</p>
+<p>
+  <strong>Min Stat:</strong>
+  <%= @item.minstat %>
+</p>
+<p>
+  <strong>Max Stat:</strong>
+  <%= @item.maxstat %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_item_path(@item) %> |
+  <%= link_to "Destroy", @item, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", items_path %>
+</p>

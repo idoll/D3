@@ -1,0 +1,17 @@
+one:
+  name: MyString
+  minlevel: 1
+  description: MyString
+  player_class: MyString
+  slot: MyString
+  minstat: 1
+  maxstat: 1
+
+two:
+  name: MyString
+  minlevel: 1
+  description: MyString
+  player_class: MyString
+  slot: MyString
+  minstat: 1
+  maxstat: 1

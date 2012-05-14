@@ -1,0 +1,27 @@
+<%= form_for @item do |f| %>
+  <p>
+    <%= f.label :name %> <i>(required)</i> <br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :Requires_Level %><br />
+    <%= f.number_field :minlevel%>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.label :Requires_Class %><br />
+    <%= f.select :player_class, options_for_select(['None', 'Barbarian', 'Demon Hunter', 'Monk', 'Witch Doctor', 'Wizard']) %>
+  </p>
+  <p>
+    <%= f.label :slot %><br />
+    <%= f.select :slot, options_for_select(['Head', 'Shoulders', 'Torso', 'Wrists', 'Hands', 'Waist', 'Legs', 'Feet', 'Jewlery', 'Off-Hand', 'Follower Special', 'One-Handed', 'Two-Handed', 'Ranged', 'Consumable', 'Crafting']) %>
+  </p>
+  <p>
+    <%= f.label :Armor %><br />
+    <%= f.number_field :minstat %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>
