@@ -1,0 +1,11 @@
+one:
+  username: MyString
+  email: MyString
+  battlenet: MyString
+  password: MyString
+
+two:
+  username: MyString
+  email: MyString
+  battlenet: MyString
+  password: MyString

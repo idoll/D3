@@ -67,3 +67,8 @@ form label {
   font-weight: bold;
   color: maroon;
 }
+
+#user_nav {
+    float: right;
+    font-size: 12px;
+}
